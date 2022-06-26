@@ -1,0 +1,45 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerbody{
+  width: 600px;
+  background-color: white;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 15px 1px gray;
+  overflow-wrap: nowrap;
+}
+.card{
+  display: flex;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+p{
+  margin-left: 1rem;
+  margin: 0.5rem;
+}
+.container .card-end{
+  text-align: end;
+  text-align: end;
+}
+.icon{
+  font-size: 100px;
+}
+.buttonIcon{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 1rem;
+  box-shadow: 1px 1px 15px 1px;
+}
+.buttonIcon i{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
